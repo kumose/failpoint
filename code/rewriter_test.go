@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/pingcap/failpoint/code"
+	"github.com/kumose/failpoint/code"
 )
 
 type rewriteCase struct {
@@ -44,7 +44,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func main() {
@@ -63,7 +63,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func main() {
@@ -86,7 +86,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -101,7 +101,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -120,7 +120,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -135,7 +135,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -154,7 +154,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -169,7 +169,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -189,7 +189,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 var ctx = context.Background()
@@ -207,7 +207,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 var ctx = context.Background()
@@ -229,7 +229,7 @@ import (
     "context"
     "fmt"
 
-    "github.com/pingcap/failpoint"
+    "github.com/kumose/failpoint"
 )
 
 type S struct {
@@ -251,7 +251,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 type S struct {
@@ -277,7 +277,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -293,7 +293,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -313,7 +313,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -329,7 +329,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -348,7 +348,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 type CustomStruct struct {
@@ -374,7 +374,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 type CustomStruct struct {
@@ -405,7 +405,7 @@ import (
 	"fmt"
 	_ "unsafe"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 //go:linkname runtimeNano runtime.nanotime
@@ -425,7 +425,7 @@ import (
 	"fmt"
 	_ "unsafe"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 //go:linkname runtimeNano runtime.nanotime
@@ -448,7 +448,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -470,7 +470,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -496,7 +496,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -519,7 +519,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -546,7 +546,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -569,7 +569,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -596,7 +596,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -613,7 +613,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -634,7 +634,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -655,7 +655,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -680,7 +680,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -697,7 +697,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -718,7 +718,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -739,7 +739,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -764,7 +764,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -786,7 +786,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -813,7 +813,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -840,7 +840,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -871,7 +871,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -894,7 +894,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -921,7 +921,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -954,7 +954,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -990,7 +990,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 const success = 200
@@ -1016,7 +1016,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 const success = 200
@@ -1047,7 +1047,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1091,7 +1091,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1139,7 +1139,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1188,7 +1188,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1240,7 +1240,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1302,7 +1302,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1369,7 +1369,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1418,7 +1418,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1471,7 +1471,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1504,7 +1504,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1540,7 +1540,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 type Iterator struct {
@@ -1590,7 +1590,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 type Iterator struct {
@@ -1645,7 +1645,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1674,7 +1674,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1707,7 +1707,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1753,7 +1753,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1803,7 +1803,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1821,7 +1821,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1843,7 +1843,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1867,7 +1867,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1895,7 +1895,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -1954,7 +1954,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2017,7 +2017,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2042,7 +2042,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2071,7 +2071,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2101,7 +2101,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2135,7 +2135,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2158,7 +2158,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2185,7 +2185,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2210,7 +2210,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2238,7 +2238,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2253,7 +2253,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2272,7 +2272,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2287,7 +2287,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2306,7 +2306,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() (int, int, error) {
@@ -2321,7 +2321,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() (int, int, error) {
@@ -2340,7 +2340,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() (int, int, error) {
@@ -2355,7 +2355,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() (int, int, error) {
@@ -2374,7 +2374,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2395,7 +2395,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2418,7 +2418,7 @@ func unittest() {
 package rewriter_test
 
 import (
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2430,7 +2430,7 @@ func unittest() {
 package rewriter_test
 
 import (
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2492,7 +2492,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2512,7 +2512,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2532,7 +2532,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2552,7 +2552,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2572,7 +2572,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2592,7 +2592,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2612,7 +2612,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2632,7 +2632,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2650,7 +2650,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2670,7 +2670,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2690,7 +2690,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2710,7 +2710,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2728,7 +2728,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2746,7 +2746,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2764,7 +2764,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2782,7 +2782,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2800,7 +2800,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2818,7 +2818,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2836,7 +2836,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2857,7 +2857,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2880,7 +2880,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2903,7 +2903,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2923,7 +2923,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2944,7 +2944,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2965,7 +2965,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -2986,7 +2986,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3008,7 +3008,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3029,7 +3029,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3049,7 +3049,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3069,7 +3069,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3090,7 +3090,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3110,7 +3110,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() int {
@@ -3131,7 +3131,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3152,7 +3152,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3172,7 +3172,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3192,7 +3192,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3212,7 +3212,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3236,7 +3236,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3257,7 +3257,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3279,7 +3279,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3301,7 +3301,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3324,7 +3324,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3347,7 +3347,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3368,7 +3368,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3387,7 +3387,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3407,7 +3407,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3427,7 +3427,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3447,7 +3447,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3467,7 +3467,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3487,7 +3487,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3507,7 +3507,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3527,7 +3527,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3547,7 +3547,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3568,7 +3568,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3588,7 +3588,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func unittest() {
@@ -3639,7 +3639,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func main() {
@@ -3658,7 +3658,7 @@ package rewriter_test
 import (
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func main() {

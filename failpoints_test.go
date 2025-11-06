@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/errors"
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/errors"
+	"github.com/kumose/failpoint"
 	"github.com/stretchr/testify/require"
 )
 

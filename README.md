@@ -1,8 +1,8 @@
 # failpoint
-[![LICENSE](https://img.shields.io/github/license/pingcap/failpoint.svg)](https://github.com/pingcap/failpoint/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/pingcap/failpoint.svg)](https://github.com/kumose/failpoint/blob/master/LICENSE)
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg)](https://golang.org/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pingcap/failpoint)](https://goreportcard.com/report/github.com/pingcap/failpoint)
-[![Build Status](https://github.com/pingcap/failpoint/actions/workflows/suite.yml/badge.svg?branch=master)](https://github.com/pingcap/failpoint/actions/workflows/suite.yml?query=event%3Apush+branch%3Amaster)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kumose/failpoint)](https://goreportcard.com/report/github.com/kumose/failpoint)
+[![Build Status](https://github.com/kumose/failpoint/actions/workflows/suite.yml/badge.svg?branch=master)](https://github.com/kumose/failpoint/actions/workflows/suite.yml?query=event%3Apush+branch%3Amaster)
 [![Coverage Status](https://codecov.io/gh/pingcap/failpoint/branch/master/graph/badge.svg)](https://codecov.io/gh/pingcap/failpoint)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
 
@@ -15,7 +15,7 @@ An implementation of [failpoints][failpoint] for Golang. Fail points are used to
 1.  Build `failpoint-ctl` from source
 
     ``` bash
-    git clone https://github.com/pingcap/failpoint.git
+    git clone https://github.com/kumose/failpoint.git
     cd failpoint
     make
     ls bin/failpoint-ctl
@@ -26,7 +26,7 @@ An implementation of [failpoints][failpoint] for Golang. Fail points are used to
     ``` go
     package main
 
-    import "github.com/pingcap/failpoint"
+    import "github.com/kumose/failpoint"
 
     func main() {
         failpoint.Inject("testPanic", func() {
@@ -58,7 +58,7 @@ An implementation of [failpoints][failpoint] for Golang. Fail points are used to
 1.  Build `failpoint-toolexec` from source
 
     ``` bash
-    git clone https://github.com/pingcap/failpoint.git
+    git clone https://github.com/kumose/failpoint.git
     cd failpoint
     make
     ls bin/failpoint-toolexec
@@ -69,7 +69,7 @@ An implementation of [failpoints][failpoint] for Golang. Fail points are used to
     ``` go
     package main
 
-    import "github.com/pingcap/failpoint"
+    import "github.com/kumose/failpoint"
 
     func main() {
         failpoint.Inject("testPanic", func() {

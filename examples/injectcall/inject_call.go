@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 )
 
 func foo(ctx context.Context, count int) int {

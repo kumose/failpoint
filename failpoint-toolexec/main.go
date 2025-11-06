@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/pingcap/errors"
-	"github.com/pingcap/failpoint/code"
+	"github.com/kumose/errors"
+	"github.com/kumose/failpoint/code"
 	"golang.org/x/mod/modfile"
 )
 

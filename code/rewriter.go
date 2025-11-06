@@ -28,7 +28,7 @@ import (
 )
 
 const (
-	packagePath     = "github.com/pingcap/failpoint"
+	packagePath     = "github.com/kumose/failpoint"
 	packageName     = "failpoint"
 	evalFunction    = "Eval"
 	callFunction    = "Call"
@@ -698,7 +698,7 @@ func (r *Rewriter) Rewrite() error {
 		if strings.HasSuffix(path, failpointBindingFileName) {
 			return nil
 		}
-		// Will rewrite a file only if the file has imported "github.com/pingcap/failpoint"
+		// Will rewrite a file only if the file has imported "github.com/kumose/failpoint"
 		fset := token.NewFileSet()
 		file, err := parser.ParseFile(fset, path, nil, parser.ImportsOnly)
 		if err != nil {
@@ -711,14 +711,14 @@ func (r *Rewriter) Rewrite() error {
 			// import path maybe in the form of:
 			//
 			// 1. normal import
-			//    - "github.com/pingcap/failpoint"
-			//    - `github.com/pingcap/failpoint`
+			//    - "github.com/kumose/failpoint"
+			//    - `github.com/kumose/failpoint`
 			// 2. ignore import
-			//    - _ "github.com/pingcap/failpoint"
-			//    - _ `github.com/pingcap/failpoint`
+			//    - _ "github.com/kumose/failpoint"
+			//    - _ `github.com/kumose/failpoint`
 			// 3. alias import
-			//    - alias "github.com/pingcap/failpoint"
-			//    - alias `github.com/pingcap/failpoint`
+			//    - alias "github.com/kumose/failpoint"
+			//    - alias `github.com/kumose/failpoint`
 			// we should trim '"' or '`' before compare it.
 			if strings.Trim(imp.Path.Value, "`\"") == packagePath {
 				files = append(files, path)

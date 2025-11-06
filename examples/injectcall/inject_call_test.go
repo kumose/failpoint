@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 	"github.com/stretchr/testify/require"
 )
 
@@ -29,7 +29,7 @@ func TestFoo(t *testing.T) {
 		capturedCtxVal   string
 		capturedArgCount int
 	)
-	require.NoError(t, failpoint.EnableCall("github.com/pingcap/failpoint/examples/injectcall/test",
+	require.NoError(t, failpoint.EnableCall("github.com/kumose/failpoint/examples/injectcall/test",
 		func(ctx context.Context, i, count int) {
 			if i == 5 {
 				cancel()
@@ -39,7 +39,7 @@ func TestFoo(t *testing.T) {
 		},
 	))
 	t.Cleanup(func() {
-		require.NoError(t, failpoint.Disable("github.com/pingcap/failpoint/examples/injectcall/test"))
+		require.NoError(t, failpoint.Disable("github.com/kumose/failpoint/examples/injectcall/test"))
 	})
 
 	loopCount := foo(ctx, 123)

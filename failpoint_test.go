@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/failpoint"
+	"github.com/kumose/failpoint"
 	"github.com/stretchr/testify/require"
 )
 

@@ -36,7 +36,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pingcap/errors"
+	"github.com/kumose/errors"
 )
 
 // FpError is the internal error of failpoint
